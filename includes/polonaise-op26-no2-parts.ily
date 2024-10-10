@@ -845,7 +845,6 @@ leftHandLower = \relative {
     q-.[ f-.] |
   f8-.\noBeam \oneVoice <f gf'!>16-.-> <f f'>-.  <f e'>8-. <f f'>16-.-> 
     <f e'>-.  <f ef'>8-. <f d'>16-.-> <f df'>-. |
-  % accent, second beat first 16th, instead of second 16th
   <f c'>8-. <f f'>16-.-> <f e'>-.  <f ef'>8-. <f ff'>16-.-> <f ef'>-. 
     <f d'>8-. <f df'>16-.-> <f c'>-. |
   <f bf>8-. <f ef'>16-.-> <f d'>-.  <f df'>8-. <f ef'>16-.-> <f df'>-.

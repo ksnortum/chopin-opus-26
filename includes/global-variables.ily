@@ -1,3 +1,4 @@
+%...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....
 \version "2.24.0"
 
 %
@@ -79,7 +80,6 @@ subdivideEighths = {
   \set baseMoment = #(ly:make-moment 1/8)
   \set beatStructure = 2,2,2,2
 }
-
 subdivideOff = {
   \set subdivideBeams = ##f
   \unset baseMoment
@@ -130,6 +130,10 @@ crescWO = \markup \large \italic \whiteout \pad-markup #0.25 cresc.
 staccatoMarkup = \markup \large \italic staccato
 sostenuto = \markup \large \italic sostenuto
 sfMarkup = \markup \dynamic sf
+
+%
+% Spanners
+%
 
 ritardSpanner = \makeSpanner \markup \large \italic ritard.
 pocoRitenSpanner = \makeSpanner \pocoRiten
