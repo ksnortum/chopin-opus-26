@@ -348,7 +348,7 @@ leftHandUpper = \relative {
     a2->( gs4)~ |
     gs8 gs bs,[ <fs' gs>] cs <e gs> |
     a,8 <cs fs> gs[ <cs e>] fs, <cs' ds> |
-    gs,8 ds'4.*1/3->( bs'4*1/2 gs  s8 fss) |
+    gs,8-> ds'4.*1/3->( bs'4*1/2 gs  s8 fss) |
     
     \barNumberCheck 33
     s2. |
@@ -403,11 +403,11 @@ leftHandLower = \relative {
   \repeat volta 2 {
     gs,,8-. <gs' ds'>4( q8 q q) |
     <gs e'>-^ gs,-. r <gs' e'>4( <gs ds'>8) |
-    gs,8-. <gs' ds'>4( q8 q q) |
+    gs,8-. <gs' ds'>4->( q8 q q) |
     <gs e'>-^ gs,-. r <gs' fs'>4( <gs e'>8) |
     
     \barNumberCheck 17
-    gs,8-. <gs' e'>4( q8 q q) |
+    gs,8-. <gs' e'>4->( q8 q q) |
     <gs e' fss>-^ gs,-. r <gs' e'>4( <gs ds'>8) |
     <gs e' fss>-^ gs,-. r <gs' e'>4( <gs ds'>8) |
     <ds, ds'>-.\noBeam <ds'' as'>16 q  q8-. q-.( q-. q-. |

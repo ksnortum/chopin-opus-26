@@ -106,16 +106,16 @@ rightHandUpper = \relative {
     
   \barNumberCheck 33
   <gf! a gf'!>8.->( ef'32 c  a gf ef c a gf ef c  a8-.) <bf df>[( |
-  <a c>8]) \stemUp <gf'! gf'!>16-. <f f'>-.  <e e'>8-. <f f'>16-. <e e'>-.
-    <ef ef'>8-. <d d'>16-. <df df'>-. |
+  <a c>8]) \stemUp <gf'! gf'!>16->-. <f f'>-.  <e e'>8-. <f f'>16->-. <e e'>-.
+    <ef ef'>8-. <d d'>16->-. <df df'>-. |
   <c c'>8-.\noBeam \stemNeutral <a'' c gf'>16-\slurShapeC ( ef'32 c  a gf ef c
     a gf ef c  a8-.) <bf df>[( |
-  <a c>8]) \stemUp <gf'! gf'!>16-. <f f'>-.  <e e'>8-. <f f'>16-. <e e'>-.
-    <ef ef'>8-. <d d'>16-. <df df'>-. |
-  <c c'>8-. <f f'>16-. <e e'>-.  <ef ef'>8-. <ff ff'>16-. <ef ef'>-.
-    <d d'>8-. <df df'>16-. <c c'>-. |
-  <bf bf'>8-. <ef ef'>16-. <d d'>-.  <df df'>8-. <ef ef'>16-. <df df'>-.
-    <c c'>8-. <bf bf'>16-. <bf af'>-. |
+  <a c>8]) \stemUp <gf'! gf'!>16->-. <f f'>-.  <e e'>8-. <f f'>16->-. <e e'>-.
+    <ef ef'>8-. <d d'>16->-. <df df'>-. |
+  <c c'>8-. <f f'>16->-. <e e'>-.  <ef ef'>8-. <ff ff'>16->-. <ef ef'>-.
+    <d d'>8-. <df df'>16->-. <c c'>-. |
+  <bf bf'>8-. <ef ef'>16->-. <d d'>-.  <df df'>8-. <ef ef'>16->-. <df df'>-.
+    <c c'>8-. <bf bf'>16->-. <bf af'>-. |
   \voiceOne gf'2(\trill f16 gf af gf) |
   \oneVoice <a, f'>8\noBeam <f f'>16 q  \slurUp q8(^. q^. q^. q^.) |
   
@@ -295,17 +295,17 @@ rightHandUpper = \relative {
     
   \barNumberCheck 137
   % like 33
-  <gf! a gf'!>8.( ef'32 c  a gf ef c a gf ef c  a8-.) <bf df>[( |
-  <a c>8]) \stemUp <gf'! gf'!>16-. <f f'>-.  <e e'>8-. <f f'>16-. <e e'>-.
-    <ef ef'>8-. <d d'>16-. <df df'>-. |
-  <c c'>8-.\noBeam \stemNeutral <a'' c gf'>16-\slurShapeC ( ef'32 c  a gf ef c
-    a gf ef c a8-.) <bf df>[( |
-  <a c>8]) \stemUp <gf'! gf'!>16-. <f f'>-.  <e e'>8-. <f f'>16-. <e e'>-.
-    <ef ef'>8-. <d d'>16-. <df df'>-. |
-  <c c'>8-. <f f'>16-. <e e'>-.  <ef ef'>8-. <ff ff'>16-. <ef ef'>-.
-    <d d'>8-. <df df'>16-. <c c'>-. |
-  <bf bf'>8-. <ef ef'>16-. <d d'>-.  <df df'>8-. <ef ef'>16-. <df df'>-.
-    <c c'>8-. <bf bf'>16-. <bf af'>-. |
+  <gf! a gf'!>8.->( ef'32 c  a gf ef c a gf ef c  a8-.) <bf df>[( |
+  <a c>8]) \stemUp <gf'! gf'!>16->-. <f f'>-.  <e e'>8-. <f f'>16->-. <e e'>-.
+    <ef ef'>8-. <d d'>16->-. <df df'>-. |
+  <c c'>8-.\noBeam \stemNeutral <a'' c gf'>16->-\slurShapeC ( ef'32 c  a gf ef
+    c a gf ef c a8-.) <bf df>[( |
+  <a c>8]) \stemUp <gf'! gf'!>16->-. <f f'>-.  <e e'>8-. <f f'>16->-. <e e'>-.
+    <ef ef'>8-. <d d'>16->-. <df df'>-. |
+  <c c'>8-. <f f'>16->-. <e e'>-.  <ef ef'>8-. <ff ff'>16->-. <ef ef'>-.
+    <d d'>8-. <df df'>16->-. <c c'>-. |
+  <bf bf'>8-. <ef ef'>16->-. <d d'>-.  <df df'>8-. <ef ef'>16->-. <df df'>-.
+    <c c'>8-. <bf bf'>16->-. <bf af'>-. |
   \voiceOne gf'2(\trill f16 gf af gf) |
   \oneVoice <a, f'>8\noBeam <f f'>16 q  \slurUp q8(^. q^. q^. q^.) |
   
@@ -841,7 +841,7 @@ leftHandLower = \relative {
   \voiceTwo f8-.\arpeggio f16-. f-. f8-. f-. f[-. f]-. |
   f8\noBeam \oneVoice <f gf'!>16-.-> <f f'>-.  <f e'>8-. <f f'>16-.-> <f e'>-.
     <f ef'>8-. <f d'>16-.-> <f df'>-. |
-  <f c'>8-.\noBeam \voiceTwo <f ef' gf>16-.\arpeggio <f gf'>-.  q8-. q-. 
+  <f c'>8-.\noBeam \voiceTwo <f ef' gf!>16->-.\arpeggio <f gf'>-.  q8-. q-. 
     q-.[ f-.] |
   f8-.\noBeam \oneVoice <f gf'!>16-.-> <f f'>-.  <f e'>8-. <f f'>16-.-> 
     <f e'>-.  <f ef'>8-. <f d'>16-.-> <f df'>-. |
