@@ -1,5 +1,5 @@
 # chopin-opus-26
-[LilyPond](https://lilypond.org/) engraving source files used to create Chopin's Two Polonaise, opus 26.
+[LilyPond](https://lilypond.org/) engraving source files used to create Chopin's Two Polonaises, opus 26.
 
 ## Creating the PDF and MIDI files
 (I highly recommend the [Frescobaldi](https://www.frescobaldi.org/) IDE for LilyPond.  It makes all of the following much easier.)
