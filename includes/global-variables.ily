@@ -13,14 +13,6 @@ makeSpanner =
     \override TextSpanner.bound-details.left-broken.text = ##f
   #})
 
-beamBreak =
-#(define-music-function (music) (ly:music?)
-  #{
-    \set stemRightBeamCount = #2
-    #music 
-    \set stemLeftBeamCount = #2
-  #})
-
 pocoCrescMarkup = 
   \markup \large \italic \whiteout \pad-markup #0.25 "poco cresc."
 pocoCresc =
@@ -39,8 +31,16 @@ ppStaccMarkup = \markup { \dynamic pp \normal-text \larger \italic stacc. }
 ppStacc = 
   \tweak self-alignment-X LEFT
   #(make-dynamic-script ppStaccMarkup)
-  
+
 beamBreak =
+#(define-music-function (music) (ly:music?)
+  #{
+    \set stemRightBeamCount = #2
+    #music 
+    \set stemLeftBeamCount = #2
+  #})
+  
+beamBreakOne =
 #(define-music-function (music) (ly:music?)
   #{
     \set stemRightBeamCount = #1

@@ -65,7 +65,7 @@ rightHandUpper = \relative {
     \tupletOff
     \slashedGrace { f8-\slurShapeA ( } ef2)\(-\trillLower\trill^\conForza
       \grace { d16*1/4( ef) } \magnifyMusic #2/3 { \tuplet 15/4 { f16 gf af
-      bf cf df! \beamBreak ef f gf af bf cf df! ef f\) } } |
+      bf cf df! \beamBreakOne ef f gf af bf cf df! ef f\) } } |
     gf4~-\slurShapeB ( gf16 ef bf gf  f[\mordent e f) r32 bf]->( |
     ef,!2) r8 d16(^\agitato ef |
     gf16 f f c)  cf4->~(  cf16 bf d ef |
@@ -151,7 +151,7 @@ rightHandUpper = \relative {
   \tupletOff
   \slashedGrace { f8-\slurShapeA ( } ef2)\(-\trillLower\trill^\conForza 
     \grace { d16*1/4( ef) } \magnifyMusic #2/3 { \tuplet 15/4 { f16 gf af bf
-    cf df! \beamBreak ef f gf af bf cf df! ef f\) } } |
+    cf df! \beamBreakOne ef f gf af bf cf df! ef f\) } } |
   gf4~-\slurShapeB ( gf16 ef bf gf  f[\mordent e f) r32 bf]->( |
   ef,!2) r8 d16(^\agitato ef |
   gf16 f f c)  cf4->~(  cf16 bf d ef |
@@ -253,7 +253,7 @@ rightHandUpper = \relative {
   \tupletOff
   \slashedGrace { f8-\slurShapeA ( } ef2)\(-\trillLower\trill^\conForza 
     \grace { d16*1/4( ef) } \magnifyMusic #2/3 { \tuplet 15/4 { f16 gf af bf
-    cf df! \beamBreak ef f gf af bf cf df! ef f\) } } |
+    cf df! \beamBreakOne ef f gf af bf cf df! ef f\) } } |
   gf4~-\slurShapeB ( gf16 ef bf gf  f[\mordent e f) r32 bf]->( |
   ef,!2) r8 d16(^\agitato ef |
   gf16 f f c)  cf4->~(  cf16 bf d ef |
@@ -342,7 +342,7 @@ rightHandUpper = \relative {
   \tupletOff
   \slashedGrace { f8-\slurShapeA ( } ef2)\(-\trillLower\trill^\conForza
     \grace { d16*1/4( ef) } \magnifyMusic #2/3 { \tuplet 15/4 { f16 gf af bf
-    cf df! \beamBreak ef f gf af bf cf df! ef f\) } } |
+    cf df! \beamBreakOne ef f gf af bf cf df! ef f\) } } |
   gf4~-\slurShapeB ( gf16 ef bf gf  f[\mordent e f) r32 bf]->( |
   ef,!2) r8 d16(^\agitato ef |
   gf16 f f c)  cf4->~(  cf16 bf d ef |
